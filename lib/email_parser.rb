@@ -5,8 +5,13 @@
 
 class EmailAddressParser
   
-  attr_accessor: 
+  attr_accessor: emails 
   
-  def intialize (email)
+  def intialize (emails)
+    @emial = emails 
+  end 
+    
+    def parse 
+      emials.uniq 
     
   
